@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Header-->
+        <header class="header-item">
+            <!--Nav panel-->
+            <div>
+                <ul>
+                    <li class="link-list-item">
+                        <a class="link-text" href="index.html">Google search</a>
+                    </li>
+                    <li class="link-list-item">
+                        <a class="link-text" href="advanced-search.html">Advanced search</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!--Logo block-->
+        <div class="image-container">
+            <div style="width: 272px">
+                <img src="img/google_img.png" alt="Google" />
+                <span class="image-text">images</span>
+            </div>
+        </div>
+
+        <!--Search block-->
+        <div class="search-block-container">
+            <!--Form-->
+            <form action="http://www.google.ee/search">
+                <!-- Search wrapper-->
+                <div class="search-wrapper">
+                    <!--Search block-->
+                    <div class="search-block">
+                        <!--Magnifying glass icon-->
+                        <div class="search-img-container">
+                            <img class="search-icon" src="./img/s-icon.webp" alt="Magnifying glass icon" />
+                        </div>
+                        <!--Search input block-->
+                        <div class="search-input-container">
+                            <input class="input-search" type="text" name="q" />
+                            <input type="hidden" name="tbm" value="isch" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer></footer>
+</body>
+
+</html>
