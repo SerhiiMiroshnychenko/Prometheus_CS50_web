@@ -17,6 +17,11 @@ table {
 
 }
 
+table :hover {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 form {
     padding-top: 30px;
     text-align: center;
@@ -41,7 +46,34 @@ input:hover {
     border: 2px;
     border-style: double;
     border-color: rgb(210, 210, 210);
+}
 
+h4 {
+    text-align: left;
+    padding-top: 47px;
+    padding-left: 40px;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
 
+div0 {
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
 
+div00 {
+    padding-top: 100px;
+    color: rgb(250, 250, 250);
+    font-size: 40px;
+}
+
+div1 {
+    padding-left: 40px;
+}
+
+div2 {
+    padding-left: 525px;
 }
