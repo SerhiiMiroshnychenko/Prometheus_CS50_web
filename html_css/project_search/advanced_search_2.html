@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="advanced.css" />
+    <title>Розширений пошуk</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Header-->
+        <header>
+            <!--Logo image-link-->
+            <div class="table-logo">
+                <table align="left" style="padding-left: 10px; padding-top: 0px;">
+                    <thead>
+                        <tr style="font-size: 20px;">
+                            <th style="color: #4285F4;">П</th>
+                            <th style="color: #F4B400;">o</th>
+                            <th style="color: #4285F4;">ш</th>
+                            <th style="color: #4285F4;">у</th>
+                            <th style="color: #F4B400;">k</th>
+                        </tr>
+                </table>
+            </div>
+            <!--Nav panel-->
+            <div>
+                <ul>
+                    <li class="link-list-item">
+                        <a class="link-text" href="index.html">Google search</a>
+                    </li>
+                    <li class="link-list-item">
+                        <a class="link-text" href="images-search.html">Google images</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!--App bar-->
+        <div>
+            <h1 class="appbar">Advanced search</h1>
+        </div>
+
+        <!--Main search section-->
+        <section class="main-section">
+            <!--Input list-->
+            <div>
+                <form action="http://www.google.ee/search">
+                    <div>
+                        <ul>
+                            <!--List header-->
+                            <li class="input-list">
+                                <div class="list-table">
+                                    <div class="head-left">Find pages with...</div>
+                                    <div class="head-center"></div>
+                                    <div class="head-right">To do this in the search box.</div>
+                                </div>
+                            </li>
+                            <li class="input-list">
+                                <div class="list-table">
+                                    <div class="left-item">all these words:</div>
+                                    <div class="center-item">
+                                        <input class="input-text" type="text" name="as_q" />
+                                    </div>
+                                    <div class="right-item">
+                                        Type the important words:
+                                        <span class="span-item">tri-colour rat terrier</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="input-list">
+                                <div class="list-table">
+                                    <div class="left-item">this exact word or phrase:</div>
+                                    <div class="center-item">
+                                        <input class="input-text" type="text" name="as_epq" />
+                                    </div>
+                                    <div class="right-item">
+                                        Put exact words in quotes:
+                                        <span class="span-item">"rat terrier"</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="input-list">
+                                <div class="list-table">
+                                    <div class="left-item">any of these words:</div>
+                                    <div class="center-item">
+                                        <input class="input-text" type="text" name="as_oq" />
+                                    </div>
+                                    <div class="right-item">
+                                        Type OR between all the words you want:
+                                        <span class="span-item">miniature OR standard</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="input-list">
+                                <div class="list-table">
+                                    <div class="left-item">none of these words:</div>
+                                    <div class="center-item">
+                                        <input class="input-text" type="text" name="as_eq" />
+                                    </div>
+                                    <div class="right-item">
+                                        Put a minus sign just before words that you don't want:
+                                        <span class="span-item">-rodent, -"Jack Russell"</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--Inputs block (buttons)-->
+                        <div class="search-advanced-button-container">
+                            <input class="search-advanced-button" type="submit" value="Advanced Search" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!--Footer-->
+    <footer></footer>
+</body>
+
+</html>
