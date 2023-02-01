@@ -34,6 +34,8 @@ p {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
+
 #header {
     background-image: url("https://www.sololearn.com/Uploads/header.jpg");
     background-size: cover;
@@ -72,6 +74,14 @@ table, th, td {
     font-weight: bold;
     color: white;
 }
+
+
+.beetroot_class {
+    background-color: #20bcd5;
+    font-weight: bold;
+    color: white;
+}
+
 li {
     margin-bottom: 15px;
     font-weight: bold;
