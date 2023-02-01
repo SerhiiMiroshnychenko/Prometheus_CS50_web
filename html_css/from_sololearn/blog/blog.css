@@ -2,13 +2,15 @@ html {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Handlee', cursive;
-    font-size: 13pt;
-    background-color: #efefef;
+    font-size: 14pt;
+    background-color: lightblue;
     padding: 10px;
     margin: 0;
 }
+
 h1 {
     font-size: 15pt;
     color: #20bcd5;
@@ -16,20 +18,32 @@ h1 {
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
+
 h1 span {
     border: 4px dashed #20bcd5;
     padding: 10px;
 }
+
 p {
     padding: 0;
     margin: 0;
 }
+
+.about {
+    text-align: center;
+}
+
+#hr_1 {
+    width: 33%
+}
+
 .img-circle {
-    border: 3px solid white;
     border-radius: 50%;
 }
+
 .section {
-    background-color: #fff;
+    background-color: khaki;
+
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -37,47 +51,74 @@ p {
 
 
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-image: url("prapor_1.png");
     background-size: cover;
 }
+
 #header img {
     display: block;
     width: 80px;
     height: 80px;
     margin: auto;
 }
+
 #header p {
-    font-size: 25pt;
-    color: #3b464c;
+    font-size: 30pt;
+    color: dodgerblue;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
     text-align: center;
 }
+
 .quote {
     font-size: 12pt;
+    font-style: italic;
     text-align: right;
     margin-top: 10px;
 }
+
 table {
     width: 100%;
     font-size: 11pt;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 2px solid #cecece;
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
 }
-.selected {
-    background-color: #f36f48;
+
+.english {
+    background-color: cadetblue;
     font-weight: bold;
     color: white;
 }
 
 
 .beetroot_class {
-    background-color: #20bcd5;
+    background-color: indianred;
+    font-weight: bold;
+    color: white;
+}
+
+.coding {
+    background-color: chocolate;
+    font-weight: bold;
+    color: white;
+}
+
+.work {
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+}
+
+.sololearn {
+    background-color: cornflowerblue;
     font-weight: bold;
     color: white;
 }
@@ -86,36 +127,45 @@ li {
     margin-bottom: 15px;
     font-weight: bold;
 }
+
 progress {
     width: 70%;
     height: 20px;
     color: #3fb6b2;
-    background: #efefef;
+    background: khaki;
 }
+
 progress::-webkit-progress-bar {
-    background: #efefef;
+    background: khaki;
 }
+
 progress::-webkit-progress-value {
     background: #3fb6b2;
 }
+
 progress::-moz-progress-bar {
     color: #3fb6b2;
     background: #efefef;
 }
-iframe, audio {
+
+iframe,
+audio {
     display: block;
     margin: 0 auto;
     border: 3px solid #3fb6b2;
 }
+
 hr {
     border: 0;
     height: 1px;
     background: #f36f48;
 }
+
 form {
     text-align: center;
     margin-top: 0;
 }
+
 .submit {
     background-color: #3fb6b2;
     padding: 12px 45px;
@@ -127,23 +177,28 @@ form {
     margin: 0;
     font-weight: bold;
 }
+
 .submit:hover {
     background-color: #43a09d;
 }
+
 textarea {
     height: 100px;
 }
-input, textarea {
+
+input,
+textarea {
     margin-bottom: 10px;
     font-size: 11pt;
     padding: 15px 10px 10px;
     border: 1px solid #cecece;
-    background-color: #efefef;
+    background-color: lightblue;
     color: #787575;
     border-radius: 5px;
     width: 70%;
     outline: none;
 }
+
 .face {
     transform: scale(0.4);
     margin: 0 auto;
@@ -151,21 +206,38 @@ input, textarea {
     margin-top: -35px;
     margin-bottom: -25px;
 }
+
 #contacts img {
     height: 50px;
     width: 50px;
     margin-left: 7px;
     margin-right: 7px;
 }
+
 #contacts a {
     text-decoration: none;
 }
+
 #contacts img:hover {
     opacity: 0.8;
 }
+
 #contacts {
     text-align: center;
 }
+
+#link1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+#link2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: dimgray;
+}
+
 .copyright {
     font-size: 8pt;
     text-align: right;
