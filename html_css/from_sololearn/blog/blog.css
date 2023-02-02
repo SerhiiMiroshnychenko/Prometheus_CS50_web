@@ -4,23 +4,22 @@ html {
 }
 
 body {
-    font-family: 'Handlee', cursive;
-    font-size: 14pt;
+    font-family: monospace;
+    font-size: 18pt;
     background-color: lightblue;
     padding: 10px;
     margin: 0;
 }
 
 h1 {
-    font-size: 15pt;
-    color: #20bcd5;
+    font-size: 25pt;
+    color: dodgerblue;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
 
 h1 span {
-    border: 4px dashed #20bcd5;
     padding: 10px;
 }
 
@@ -34,7 +33,7 @@ p {
 }
 
 #hr_1 {
-    width: 33%
+    width: 33%;
 }
 
 .img-circle {
@@ -43,10 +42,16 @@ p {
 
 .section {
     background-color: khaki;
+    color: #000;
 
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+
+.section table {
+    font-size: 12pt;
+
 }
 
 
@@ -63,7 +68,7 @@ p {
 }
 
 #header p {
-    font-size: 30pt;
+    font-size: 45pt;
     color: dodgerblue;
     padding-top: 5px;
     margin: 0;
@@ -72,7 +77,7 @@ p {
 }
 
 .quote {
-    font-size: 12pt;
+    font-size: 15pt;
     font-style: italic;
     text-align: right;
     margin-top: 10px;
@@ -80,7 +85,7 @@ p {
 
 table {
     width: 100%;
-    font-size: 11pt;
+    font-size: 12pt;
 }
 
 table,
@@ -90,37 +95,28 @@ td {
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
+    padding: 5px;
 }
 
 .english {
-    background-color: cadetblue;
-    font-weight: bold;
-    color: white;
+    background-color: rgb(235, 223, 112);
 }
 
 
 .beetroot_class {
-    background-color: indianred;
-    font-weight: bold;
-    color: white;
+    background-color: rgb(250, 230, 49);
 }
 
 .coding {
-    background-color: chocolate;
-    font-weight: bold;
-    color: white;
+    background-color: rgb(251, 236, 105);
 }
 
 .work {
-    background-color: brown;
-    font-weight: bold;
-    color: white;
+    background-color: rgb(242, 234, 158);
 }
 
 .sololearn {
-    background-color: cornflowerblue;
-    font-weight: bold;
-    color: white;
+    background-color: rgb(225, 211, 88);
 }
 
 li {
@@ -136,11 +132,11 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-    background: khaki;
+    background: rgb(211, 202, 124);
 }
 
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+    background: rgb(25, 120, 215);
 }
 
 progress::-moz-progress-bar {
@@ -152,7 +148,7 @@ iframe,
 audio {
     display: block;
     margin: 0 auto;
-    border: 3px solid #3fb6b2;
+    border: 3px solid dodgerblue;
 }
 
 hr {
@@ -167,7 +163,7 @@ form {
 }
 
 .submit {
-    background-color: #3fb6b2;
+    background-color: rgb(25, 120, 215);
     padding: 12px 45px;
     border-radius: 5px;
     cursor: pointer;
@@ -179,7 +175,7 @@ form {
 }
 
 .submit:hover {
-    background-color: #43a09d;
+    background-color: dodgerblue;
 }
 
 textarea {
