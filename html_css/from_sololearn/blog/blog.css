@@ -33,7 +33,7 @@ p {
 }
 
 #hr_1 {
-    width: 33%;
+    width: 55%;
 }
 
 .img-circle {
@@ -104,7 +104,7 @@ td {
 
 
 .beetroot_class {
-    background-color: rgb(250, 230, 49);
+    background-color: gold;
 }
 
 .coding {
@@ -153,8 +153,8 @@ audio {
 
 hr {
     border: 0;
-    height: 1px;
-    background: #f36f48;
+    height: 2px;
+    background: lightblue;
 }
 
 form {
