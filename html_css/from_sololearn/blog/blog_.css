@@ -56,8 +56,12 @@ p {
 
 
 #header {
-    background-image: url("prapor_1.png");
+    background-color: rgb(25, 120, 215);
     background-size: cover;
+}
+
+#header p:hover {
+    color: yellow;
 }
 
 #header img {
@@ -69,7 +73,7 @@ p {
 
 #header p {
     font-size: 45pt;
-    color: dodgerblue;
+    color: khaki;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
@@ -228,10 +232,28 @@ textarea {
     color: royalblue;
 }
 
+#link1:hover {
+    color: blue;
+}
+
 #link2 {
     font-size: 30px;
     font-weight: bold;
     color: dimgray;
+}
+
+#link2:hover {
+    color: black;
+}
+
+#link3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#link3:hover {
+    color: darkmagenta;
 }
 
 .copyright {
